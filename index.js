@@ -19,7 +19,7 @@ function timeout(req, res, seconds) {
 
   function start(len) {
     if (timer) return
-    req.timeout.length = len || req.timeout.length
+    len = req.timeout.length = len || req.timeout.length
     timer = setTimeout(expire, len)
   }
 

@@ -1,7 +1,7 @@
 {
   "name": "request-timeout",
   "description": "Http request timeout",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Mike Frey <frey.mike@gmail.com>",
   "keywords": ["request", "response", "timeout", "event", "http"],
   "dependencies": {
